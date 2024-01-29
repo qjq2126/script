@@ -30,10 +30,11 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '/userInfo';
-
-
-if (url.indexOf(vip) != -1) {
+const membershipType = 'non-member';
+obj.data.membershipType = 'member';
+obj.data.expireAt = "2099-09-12T23:50:23+08:00";
+body = JSON.stringify(obj);
+/*
     obj.data.level = 1;
     obj.data.expireTime = "2099-09-12T23:50:23+08:00";
     obj.data.nickName = "彭于晏解锁";
@@ -45,6 +46,8 @@ if (url.indexOf(vip) != -1) {
 
 	body = JSON.stringify(obj);
 }
+
+*/
 
 
 $done({body});
