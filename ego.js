@@ -37,7 +37,7 @@ obj.data.expireAt = "2099-09-12T23:50:23+08:00";
 body = JSON.stringify(obj);
 /*
     obj.data.level = 1;
-    obj.data.expireTime = "2099-09-12T23:50:23+08:00";
+    obj.data.expireTime = "2099-09-12";
     obj.data.nickName = "彭于晏解锁";
     obj.data.thirdNickName = "彭于晏解锁";
     obj.data.isExpire = false;
