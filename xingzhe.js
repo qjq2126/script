@@ -1,7 +1,7 @@
 let body = $response.body;
 let obj = JSON.parse(body);
 obj.data.time_start = '1716568323000';
-obj.data.time_end = '1719246723000';
+obj.data.time_end = '99977168300000';
 obj.data.name = '太行';
 obj.data.perms.workout_merge = '1';
 obj.data.perms.map_skin = '2';
