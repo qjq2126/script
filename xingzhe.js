@@ -18,3 +18,6 @@ if (obj.code) {
   obj.data.perms.pannel_object_5 = '0';
   obj.data.perms.license_number_skin = '1';
 }
+
+body = JSON.stringify(obj);
+$done({body})
