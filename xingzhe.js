@@ -1,6 +1,6 @@
 let body = $response.body;
 let obj = JSON.parse(body);
-if (obj.code) {
+if (!obj.code) {
   obj.data.time_start = '1716568323000';
   obj.data.time_end = '1719246723000';
   obj.data.name = '太行';
