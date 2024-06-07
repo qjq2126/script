@@ -1,6 +1,6 @@
 let body = $response.body;
 let obj = JSON.parse(body);
-obj.pro_name = '太4';
+obj.data.pro_status.end_time = 1719246723000;
 
 
 body = JSON.stringify(obj);
