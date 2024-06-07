@@ -2,7 +2,7 @@ let body = $response.body;
 let obj = JSON.parse(body);
 obj.data.time_start = '1716568323000';
 obj.data.time_end = '19977168300000';
-obj.data.name = '太行天下';
+obj.data.name = '太行';
 obj.data.perms.workout_merge = '1';
 obj.data.perms.map_skin = '4';
 obj.data.perms.workout_merge = '1';
@@ -17,7 +17,7 @@ obj.data.perms.segment_contrast = '0';
 obj.data.perms.pannel_object_5 = '0';
 obj.data.perms.license_number_skin = '1';
 
-obj.data.month_buy = '1';
+obj.data.month_buy = '2';
 
 obj.data.benefit = '["HEAT算力增加5%", "运动会PRO赛事包"]';
 obj.data.benefit_can = '1';
