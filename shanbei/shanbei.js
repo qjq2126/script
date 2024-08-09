@@ -1,1 +1,1 @@
-let i = 1
+$notification.post("我是测试内容")
