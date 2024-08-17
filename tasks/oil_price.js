@@ -14,6 +14,15 @@ const headers = {
     'Referer': 'https://servicewechat.com/wxf5e1ca323c8da12a/355/page-frame.html'
 };
 
+const request = { url: url };
+$httpClient.get(request, function (error, response, data) {
+      if (error) {
+        console.log(`${error}`);;
+      } else {
+        handleResponse(data);
+      }
+    }
+
 $httpClient.get(url, headers, function(error, response, data) {
     if (error) {
         console.log('请求失败: ', error);
