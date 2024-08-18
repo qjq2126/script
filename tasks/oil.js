@@ -5,7 +5,7 @@ if (typeof $argument !== "undefined") {
   provname = "陕西";//quantumultx用户请复制到本地脚本 更改其他省 省份名不能含"省"字。小火箭loon用户请看模块插件注释 surge请用面板
 }
 //默认江苏油价
-const encodedprovname = encodeURIComponent(provname);
+const encodedprovname = encodeURIComponent(provname);  // 将 URI 组件中不安全的字符转换为百分号编码（% 编码），这样这些字符就可以安全地出现在 URL中
 const apiUrls = [
   `https://apis.tianapi.com/oilprice/index?key=231de491563c35731436829ac52aad43&prov=${encodedprovname}`,
   `https://apis.tianapi.com/oilprice/index?key=a2bc7a0e01be908881ff752677cf94b7&prov=${encodedprovname}`,
@@ -13,7 +13,7 @@ const apiUrls = [
   `https://apis.tianapi.com/oilprice/index?key=3c5ee42145c852de4147264f25b858dc&prov=${encodedprovname}`,
   `https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodedprovname}`
 ];
-let currentIndex = 0;
+let currentIndex = 0; //用来索引网址
 if (typeof $httpClient !== "undefined" || typeof $task !== "undefined") {
   testNextUrl();
 } else {
