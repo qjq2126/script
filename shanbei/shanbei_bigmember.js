@@ -1,4 +1,5 @@
 // 获取响应对象
+let response = $response
 let response = {
     status: 200, // 将状态码修改为200
     headers: {
