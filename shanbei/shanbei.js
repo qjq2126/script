@@ -1,4 +1,1 @@
-
-let body = $response.body;
-let obj = JSON.parse(body);
-obj.user_info.user_id = 'qjq2126';
+$notification.post("我是测试标题", "我是内容", "我是纯属")
