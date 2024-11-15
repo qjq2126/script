@@ -1,2 +1,5 @@
 let body = $response.body;
-let obj = JS
+let obj = JSON.parse(body);
+
+
+body = JSON.stringify
