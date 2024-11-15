@@ -1,1 +1,2 @@
-let obj = ¥
+let body = $response.body;
+let obj = JS
