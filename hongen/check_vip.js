@@ -1,1 +1,1 @@
-let obj = 
+let obj = ¥
