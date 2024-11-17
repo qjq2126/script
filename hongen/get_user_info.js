@@ -8,7 +8,8 @@ obj.result.userinfo.vip.expire_time = 1831846606;      // 第一段：不存在 
 obj.result.userinfo.vip.last_product_id = "";  // 第一段：不存在    第二段："" (空字符串)
 obj.result.userinfo.vip.purchase_ts = 1731587406;       // 第一段：不存在    第二段：1731587406
 obj.result.userinfo.vip.sub_end_ts = 0;       // 第一段：不存在    第二段：0
-obj.result.userinfo.vip.vip_type = 2;         // 第一段：0    第二段：2
+obj.result.userinfo.vip.vip_type = 3;         // 第一段：0    第二段：2
+obj.result.userinfo.vip.sub_end_ts = 1831846606;
 
 
 body = JSON.stringify(obj);
